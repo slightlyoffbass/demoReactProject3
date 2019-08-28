@@ -6,8 +6,10 @@ import SearchBar from './SearchBar';
 class App extends React.Component {
     
     state = {images: []};
-
-    async onSearchSubmit(term){
+    
+    // Converted to arrow function to prevent the following error
+    // Unhandled Rejection (TypeError): this.setState is not a function
+    onSearchSubmit = async term =>{
         const response = await Axios.get('https://api.unsplash.com/search/photos',{
             params:{
                 query: term
@@ -32,3 +34,4 @@ class App extends React.Component {
 }
 
 export default App;
+
