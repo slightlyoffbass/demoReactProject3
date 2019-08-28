@@ -5,9 +5,10 @@ class SearchBar extends React.Component{
     state = {term:''}
 
     // prevents default submit when enter key is pressed
-    // by using an error fucntion, this.state.term can be called without cannot read property of state error
+    // by using an arrow fucntion, this.state.term can be called without cannot read property of state error
     onFormSubmit = (event) => {
         event.preventDefault();
+        console.log(this.state.term);
     }
 
     render(){
