@@ -8,7 +8,7 @@ class SearchBar extends React.Component{
     // by using an arrow fucntion, this.state.term can be called without cannot read property of state error
     onFormSubmit = (event) => {
         event.preventDefault();
-        console.log(this.state.term);
+        this.props.onSubmit(this.state.term);
     }
 
     render(){
