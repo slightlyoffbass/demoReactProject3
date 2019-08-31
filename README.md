@@ -2,8 +2,10 @@
 - This app is an exercise of an online react/redux course
 - This app has a search bar and returns a set of images
 
-##
-`npm start`
+### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Notes
 - axios
