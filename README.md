@@ -1,13 +1,13 @@
-# This app is an exercise of an online react/redux course
+# Demo React Project 3
+- This app is an exercise of an online react/redux course
+- This app has a search bar and returns a set of images
 
-## create project
-npx create-react-app nameofapp
+##
+`npm start`
 
-## connect to unsplash for car images
-allowed 50 requests per hour
-
-## ajax client options
-- axios - used in this project, lower level
-  - npm install --save axios
+## Notes
+- axios
+- unsplash
+ 
 
 - fetch, not a seperate function, built into browsers, method, could cause more code
