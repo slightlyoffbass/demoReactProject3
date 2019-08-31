@@ -10,4 +10,4 @@
 - unsplash
  
 
-- fetch, not a seperate function, built into browsers, method, could cause more code
+- fetch, not a seperate function, built into browsers, method, could cause more code.
